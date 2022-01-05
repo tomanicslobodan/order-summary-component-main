@@ -1,0 +1,97 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+
+.picturebox {
+  border-radius: 20px;
+  background-color: aliceblue;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 450px;
+  height: 700px;
+}
+
+.picturebox > img {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.picturebox > h2 {
+  margin-top: 40px;
+}
+
+.picturebox > p {
+  color: gray;
+  margin: 0 70px 0 70px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.picturebox > .container {
+  display: inline-block;
+  background-color: hsl(229, 53%, 94%);
+  border-radius: 15px;
+  width: 350px;
+  margin: 20px auto 0px auto;
+  padding-top: 10px;
+}
+
+.col-6 {
+  text-align: left;
+}
+
+#change {
+  color: rgb(167, 61, 167);
+  text-align: center;
+  margin: auto;
+  text-decoration: underline;
+}
+
+#change:hover {
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.proceed {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 15px;
+  width: 350px;
+  margin: 20px auto 0px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.proceed:hover {
+  cursor: pointer;
+}
+
+.cancel {
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.cancel:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    height: 580px;
+    margin: auto;
+  }
+}
